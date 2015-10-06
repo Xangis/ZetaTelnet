@@ -1,11 +1,9 @@
 ZetaTelnet
 ==========
 
-A basic telnet application for Windows.
+A basic telnet application for Windows originally released at http://zetacentauri.com
 
-A compiled version of this program with installer is available here:
-
-http://zetacentauri.com/software_zetatelnet.htm
+![ZetaTelnet Screenshot](https://github.com/Xangis/ZetaTelnet/blob/master/images/zetatelnet3.gif)
 
 This application was written using C# .NET 2.0 and should run on any system that
 supports .NET 2.0.  A project is included for Visual Studio 11. It doesn't have any
