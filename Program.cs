@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace ZetaTelnet
+namespace LambdaTelnet
 {
     static class Program
     {
@@ -14,7 +14,7 @@ namespace ZetaTelnet
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ZetaTelnet());
+            Application.Run(new LambdaTelnet());
         }
     }
 }

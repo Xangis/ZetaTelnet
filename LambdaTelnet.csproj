@@ -8,8 +8,8 @@
     <ProjectGuid>{412D1921-8423-48A0-858C-77AF173A454D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ZetaTelnet</RootNamespace>
-    <AssemblyName>ZetaTelnet</AssemblyName>
+    <RootNamespace>LambdaTelnet</RootNamespace>
+    <AssemblyName>LambdaTelnet</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

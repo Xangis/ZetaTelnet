@@ -1,6 +1,6 @@
-namespace ZetaTelnet
+namespace LambdaTelnet
 {
-    partial class ZetaTelnet
+    partial class LambdaTelnet
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@ namespace ZetaTelnet
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ZetaTelnet));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LambdaTelnet));
             this.txtTerminal = new System.Windows.Forms.RichTextBox();
             this.txtInput = new System.Windows.Forms.TextBox();
             this.txtIP = new System.Windows.Forms.TextBox();
@@ -258,7 +258,7 @@ namespace ZetaTelnet
             this.changeBackgroundColorToolStripMenuItem.Text = "Change Background Color";
             this.changeBackgroundColorToolStripMenuItem.Click += new System.EventHandler(this.changeBackgroundColorToolStripMenuItem_Click);
             // 
-            // ZetaTelnet
+            // LambdaTelnet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -270,8 +270,8 @@ namespace ZetaTelnet
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "ZetaTelnet";
-            this.Text = "Zeta Telnet 3";
+            this.Name = "LambdaTelnet";
+            this.Text = "Lambda Telnet 3.01";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);

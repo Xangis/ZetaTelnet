@@ -11,10 +11,10 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Text.RegularExpressions;
 
-namespace ZetaTelnet
+namespace LambdaTelnet
 {
 
-    public partial class ZetaTelnet : Form
+    public partial class LambdaTelnet : Form
     {
         private Socket _socket = null;
         byte[] _inBuffer = null;
@@ -26,14 +26,14 @@ namespace ZetaTelnet
         int _scrollbackPosition = -1;
         bool _stripANSI = true;
 
-        public ZetaTelnet()
+        public LambdaTelnet()
         {
             InitializeComponent();
             //txtInput.KeyPress += new KeyPressEventHandler(KeyHandler);
             txtInput.KeyDown += new KeyEventHandler(KeyHandler);
         }
 
-        ~ZetaTelnet()
+        ~LambdaTelnet()
         {
             if( _socket != null )
             {
@@ -328,7 +328,7 @@ namespace ZetaTelnet
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show(
-            "Zeta Telnet 3.01\nCopyright (c) 2007-2013 Zeta Centauri, Inc.\nhttp://www.zetacentauri.com\nWritten by Jason Champion.\n\nThis program is freeware and may be distributed freely.", "About Zeta Telnet");
+            "Lambda Telnet 3.01\nCopyright (c) 2007-2020 Lambda Centauri, Inc.\nhttps://lambdacentauri.com\nWritten by Jason Champion.\n\nThis program is freeware and may be distributed freely.", "About Lambda Telnet");
         }
 
         private void saveAsMenuItem_Click(object sender, EventArgs e)
