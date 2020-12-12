@@ -1,3 +1,32 @@
+TODO:
+
+- Add a view/window => Clear menu option to clear the window and all scrollback.
+- Give some indication whether a session is connected or disconnected.
+
+Changes in Version 3.02:
+
+1. Updated from .NET 2.0 to .NET 4.5.
+2. Made the app DPI-aware.
+
+Changes in Version 3.01:
+
+1. Created installer/uninstaller.
+2. Minor adjustments to interface.
+
+Changes in Version 3:
+
+1. Default background is now black, but color can be changed under the Options menu.
+2. Up and down arrows now let you select previously-sent text to send.
+3. Window can now be resized effectively.
+4. Better connection error handling.
+
+Changes in Version 2:
+
+1. Added disconnect button.
+2. Added menu.
+3. Added setting to strip ANSI color codes from received text under Options->Settings.
+4. Added save option to save output window text as a Rich Text (.rtf) file.
+
 ZetaTelnet
 ==========
 

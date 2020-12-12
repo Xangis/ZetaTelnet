@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Lambda Telnet 3.01")]
+[assembly: AssemblyTitle("Lambda Telnet 3.02")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Lambda Centauri, Inc.")]
+[assembly: AssemblyCompany("Lambda Centauri")]
 [assembly: AssemblyProduct("LambdaTelnet")]
-[assembly: AssemblyCopyright("Copyright © 2007-2009")]
+[assembly: AssemblyCopyright("Copyright © 2007-2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -29,5 +29,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("3.0.2.0")]
+[assembly: AssemblyFileVersion("3.0.2.0")]

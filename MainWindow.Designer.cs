@@ -47,10 +47,10 @@ namespace LambdaTelnet
             this.exitToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stripAnsiCodesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.changeForegroundColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.changeBackgroundColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -161,13 +161,14 @@ namespace LambdaTelnet
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.saveAsToolStripMenuItem,
             this.optionsToolStripMenuItem,
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(632, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(662, 24);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -229,6 +230,20 @@ namespace LambdaTelnet
             this.stripAnsiCodesToolStripMenuItem.Text = "Strip Ansi Codes";
             this.stripAnsiCodesToolStripMenuItem.Click += new System.EventHandler(this.stripAnsiCodesToolStripMenuItem_Click);
             // 
+            // changeForegroundColorToolStripMenuItem
+            // 
+            this.changeForegroundColorToolStripMenuItem.Name = "changeForegroundColorToolStripMenuItem";
+            this.changeForegroundColorToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
+            this.changeForegroundColorToolStripMenuItem.Text = "Change Foreground Color";
+            this.changeForegroundColorToolStripMenuItem.Click += new System.EventHandler(this.changeForegroundColorToolStripMenuItem_Click);
+            // 
+            // changeBackgroundColorToolStripMenuItem
+            // 
+            this.changeBackgroundColorToolStripMenuItem.Name = "changeBackgroundColorToolStripMenuItem";
+            this.changeBackgroundColorToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
+            this.changeBackgroundColorToolStripMenuItem.Text = "Change Background Color";
+            this.changeBackgroundColorToolStripMenuItem.Click += new System.EventHandler(this.changeBackgroundColorToolStripMenuItem_Click);
+            // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -244,25 +259,11 @@ namespace LambdaTelnet
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
-            // changeForegroundColorToolStripMenuItem
-            // 
-            this.changeForegroundColorToolStripMenuItem.Name = "changeForegroundColorToolStripMenuItem";
-            this.changeForegroundColorToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
-            this.changeForegroundColorToolStripMenuItem.Text = "Change Foreground Color";
-            this.changeForegroundColorToolStripMenuItem.Click += new System.EventHandler(this.changeForegroundColorToolStripMenuItem_Click);
-            // 
-            // changeBackgroundColorToolStripMenuItem
-            // 
-            this.changeBackgroundColorToolStripMenuItem.Name = "changeBackgroundColorToolStripMenuItem";
-            this.changeBackgroundColorToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
-            this.changeBackgroundColorToolStripMenuItem.Text = "Change Background Color";
-            this.changeBackgroundColorToolStripMenuItem.Click += new System.EventHandler(this.changeBackgroundColorToolStripMenuItem_Click);
-            // 
             // LambdaTelnet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(632, 466);
+            this.ClientSize = new System.Drawing.Size(662, 492);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtTerminal);
             this.Controls.Add(this.txtInput);
@@ -271,7 +272,7 @@ namespace LambdaTelnet
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "LambdaTelnet";
-            this.Text = "Lambda Telnet 3.01";
+            this.Text = "Lambda Telnet 3.02";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);

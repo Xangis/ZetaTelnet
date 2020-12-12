@@ -328,7 +328,7 @@ namespace LambdaTelnet
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show(
-            "Lambda Telnet 3.01\nCopyright (c) 2007-2020 Lambda Centauri, Inc.\nhttps://lambdacentauri.com\nWritten by Jason Champion.\n\nThis program is freeware and may be distributed freely.", "About Lambda Telnet");
+            "Lambda Telnet 3.02\nCopyright (c) 2007-2020 Lambda Centauri\nWritten by Jason Champion.\n\nhttps://lambdacentauri.com\n\nThis program is freeware and may be distributed freely.", "About Lambda Telnet");
         }
 
         private void saveAsMenuItem_Click(object sender, EventArgs e)
